@@ -1,0 +1,59 @@
+# OS files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Editor and IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Environment and secrets
+.env
+.env.*
+!.env.example
+
+# Logs
+*.log
+logs/
+
+# Dependencies
+node_modules/
+vendor/
+
+# Build outputs
+dist/
+build/
+out/
+target/
+
+# Python caches and virtual environments
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.venv/
+venv/
+env/
+
+# Package manager caches
+.npm/
+.yarn/
+.pnpm-store/
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+*.bak
+
+# Large/generated data outputs
+*.zip
+*.tar
+*.tar.gz
+*.rar
+*.7z
+*.db
+*.sqlite
+*.sqlite3
